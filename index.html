@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html id="index">
+  <head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <section id="top">
+      <img class="displayed" src="https://media.istockphoto.com/vectors/female-office-worker-vector-id165967112?k=6&m=165967112&s=612x612&w=0&h=8CjIrtKXJAOwYgSV15eCLvfMfPgd8sd0oY7F96gOZZo=" alt="happy woman using a computer">
+      <hr>
+      <h1>WELCOME</h1>
+      <p>Please Register for an account</p>
+    </section>
+    
+    <section id="main">
+      <form action="pageHandler.php" method="POST">
+        <section class="name">
+          <label for="FirstName">First Name</label>
+          <input type="text" name="FirstName" id="FirstName" required pattern="[a-ZA-Z]+"> <br>
+          <label for="LastName">Last Name</label>
+          <input type="text" name="LastName" id="LastName" required pattern="[a-zA-Z]+">
+        </section>
+        <hr>
+
+        <section class="login info">
+          <label for="Username">Username</label>
+          <input type="text" name="Username" id="Username" required minlength="3" maxlength="15" pattern="a-zA-Z0-9]+"> <br>
+          <label for="Password">Password</label>
+          <input type="password" name="Password" id="Password" required minlength="8" maxlength="15">
+          <hr>
+        </section>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    
+  
+  </body>
+</html>
