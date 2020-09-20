@@ -1,7 +1,5 @@
 
-/* #index{
-  width: 80%;
-} */
+
 
 img.displayed{
   border-radius: 15px;
@@ -16,6 +14,10 @@ hr{
   width: 250px;
 }
 
+select{
+  width: 177px;
+}
+
 #top{
   margin-left: auto;
   margin-right: auto;
@@ -27,11 +29,11 @@ hr{
 
 #main{
   background-color: rgb(202, 240, 248);
-  text-align: center;
+  text-align: right;
   margin: auto;
-  width: 50%;
+  width: fit-content;
   border-radius: 15px;
   overflow: auto;
-  padding: 15px;
+  padding: 25px;
   line-height: 27px;
 }
